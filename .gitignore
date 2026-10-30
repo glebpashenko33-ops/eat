@@ -1,0 +1,15 @@
+# Локальные настройки машины: пути и пароли
+config/radar.json
+.v8-project.json
+.mcp.json
+.claude/settings.local.json
+
+# Скачанные инструменты и артефакты
+tools/
+build/
+logs/
+.v8-xsd/
+.bsl-analyzer-cache/
+
+# Навыки ставит setup/install.ps1 из cc-1c-skills
+.claude/skills/

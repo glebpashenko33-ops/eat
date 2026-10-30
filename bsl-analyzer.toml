@@ -1,0 +1,7 @@
+[source]
+# XML-выгрузка конфигурации базы разработки
+root = "src/cf"
+# Расширения из src/cfe перечислите здесь, например: extensions = ["src/cfe/Tests"]
+
+[diagnostics]
+ordinaryAppSupport = false
