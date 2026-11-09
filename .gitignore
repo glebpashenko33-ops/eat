@@ -1,0 +1,5 @@
+.browser-profile/
+.venv/
+__pycache__/
+.pytest_cache/
+diagnose-*.png

@@ -1,0 +1,19 @@
+{
+  "_comment": "Сети и адреса поиска. {q} — поисковый запрос. Если поиск у сети поменялся, поправьте search здесь.",
+  "stores": {
+    "pyaterochka": {"name": "Пятёрочка", "home": "https://5ka.ru/", "search": "https://5ka.ru/search/?text={q}"},
+    "magnit": {"name": "Магнит", "home": "https://magnit.ru/", "search": "https://magnit.ru/search?term={q}", "api": "magnit"},
+    "chizhik": {"name": "Чижик", "home": "https://chizhik.club/", "search": "https://chizhik.club/catalog/?search={q}"},
+    "perekrestok": {"name": "Перекрёсток", "home": "https://www.perekrestok.ru/", "search": "https://www.perekrestok.ru/cat/search?search={q}"},
+    "lenta": {"name": "Лента", "home": "https://lenta.com/", "search": "https://lenta.com/search/{q}/"},
+    "metro": {"name": "Метро", "home": "https://online.metro-cc.ru/", "search": "https://online.metro-cc.ru/search?q={q}"},
+    "auchan": {"name": "Ашан", "home": "https://www.auchan.ru/", "search": "https://www.auchan.ru/search/?q={q}"},
+    "vkusvill": {"name": "ВкусВилл", "home": "https://vkusvill.ru/", "search": "https://vkusvill.ru/search/?type=products&q={q}"},
+    "dixy": {"name": "Дикси", "home": "https://dixy.ru/", "search": "https://dixy.ru/catalog/search/?q={q}"}
+  },
+  "magnit_api": {
+    "_comment": "Прямой API Магнита работает и с серверов GitHub. storeCode — код магазина; свой можно подсмотреть в запросах сайта magnit.ru.",
+    "url": "https://magnit.ru/webgate/v2/goods/search",
+    "storeCode": "992301"
+  }
+}
